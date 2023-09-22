@@ -1,11 +1,12 @@
 #include "monty.h"
 
 /**
- * _push - pushes an element onto the stack.
- * @head: the head of the stack.
- * @line_num: the line of the opcode being executed.
- * Return: void.
+ * _push - pushes an element onto the stack
+ * @head: the head of the stack
+ * @line_num: the line of the opcode being executed
+ * Return: void
  */
+
 void _push(stack_t **head, unsigned int line_num)
 {
 	stack_t *top;
