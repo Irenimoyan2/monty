@@ -1,4 +1,5 @@
 #include "monty.h"
+
 globs global = {0, NULL, NULL, NULL};
 
 /**
@@ -7,6 +8,7 @@ globs global = {0, NULL, NULL, NULL};
  * @av: arguments to program.
  * Return: 0 always.
  */
+
 int main(int ac, char **av)
 {
 	size_t len = 0;
