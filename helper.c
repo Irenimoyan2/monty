@@ -5,6 +5,7 @@
  * @head: the top of the stack.
  * Return: void.
  */
+
 void free_stack(stack_t *head)
 {
 	stack_t *top;
@@ -22,6 +23,7 @@ void free_stack(stack_t *head)
  * @s: pointer to the string.
  * Return: pointer to the trimmed string.
  */
+
 char *trim_space(char *s)
 {
 	char *end;
