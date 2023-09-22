@@ -92,6 +92,8 @@ pall This is the end of our program. Monty is awesome!$
 julien@ubuntu:~/monty$
 ```
 
+
+
 The monty program
 
 Usage: monty file
@@ -132,6 +134,7 @@ The opcode pall prints all the values on the stack, starting from the top of the
 Usage pall
 Format: see example
 If the stack is empty, don’t print anything
+
 
 
 1. pint
