@@ -44,6 +44,7 @@ void execute_op(char *input, unsigned int line_num)
  * @tok: the number in string.
  * @line_num: the line number of the opcode in its file.
  */
+
 void check_push(char *tok, unsigned int line_num)
 {
 	if (is_number(tok))
@@ -59,6 +60,7 @@ void check_push(char *tok, unsigned int line_num)
  * cleanup_exit - frees all memory and exits with a failed stauts.
  * Return: void.
  */
+
 void cleanup_exit(void)
 {
 	fclose(global.fp);
