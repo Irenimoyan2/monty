@@ -2,6 +2,8 @@
 
 
 
+
+
 Data structures
 The following data structures are used for this project. They are included in the header file, "monty.h".
 
