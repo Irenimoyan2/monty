@@ -20,6 +20,7 @@
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO
  */
+
 typedef struct stack_s
 {
 	int n;
@@ -34,6 +35,7 @@ typedef struct stack_s
  * @stack: the stack.
  * @line: line containing opcodes.
  */
+
 typedef struct global_vars
 {
 	int number;
