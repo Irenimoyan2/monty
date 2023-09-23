@@ -1,11 +1,13 @@
 #include "monty.h"
 
+
 /**
  * _add - adds 2 topmost stack elements.
  * @head: the head of the stack.
  * @line_num: the line of the opcode being executed.
  * Return: void.
  */
+
 void _add(stack_t **head, unsigned int line_num)
 {
 	stack_t *top;
@@ -29,6 +31,7 @@ void _add(stack_t **head, unsigned int line_num)
  * @line_num: the line of the opcode being executed.
  * Return: void.
  */
+
 void _sub(stack_t **head, unsigned int line_num)
 {
 	stack_t *top;
